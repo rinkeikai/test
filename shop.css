@@ -1,0 +1,181 @@
+*{
+  box-sizing:border-box;
+}
+html{
+  height:100%;
+  width: 100%;
+}
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+  height:auto;
+  width:auto;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.clear{
+  clear:left;
+}
+/*ボタン*/
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:4px;
+  box-shadow: 3px 4px #696969;
+}
+.btn:active{
+  position:relative;
+  top:4px;
+  left:3px;
+  box-shadow: none;
+}
+.btn:hover{
+  opacity:1;
+}
+
+
+header{
+  height:80px;
+  width:100%;
+  background-color: rgba(220, 220, 220, 0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+.header-title{
+  margin: 0 15px;
+  float: left;
+  width: 100%;
+}
+header h3{
+  margin: 7px 0;
+}
+header h2{
+  margin: 2px 0;
+}
+.logic-logo{
+  float: right;
+}
+.shop-logo{
+  text-align: center;
+  margin: 30px 10px;
+}
+/*footerのCSS*/
+footer{
+  height:50px;
+  padding: 0 ;
+  width: 100%;
+  background-color: rgba(220, 220, 220, 0.9);
+  margin-top: 10px;
+}
+.footer-logo{
+  float: right;
+  padding-top: 10px;
+  margin: 0;
+  color:#696969;
+  font-family:'Gulim';
+  margin-right: 10px;
+  font-size: 10px;
+}
+.footer-logo p{
+  margin:0;
+}
+.red{
+  color:red;
+}
+.root{
+  display: inline-block;
+  float: left;
+  padding-left: 5px;
+}
+.root p{
+  margin-top: 5px;
+}
+/*お店の情報*/
+.top-wrapper{
+  padding-top: 100px;
+  height: 600px;
+}
+.shop{
+  padding: 0 60px;
+}
+.shop-date{
+  float: left;
+  border: 1px solid black;
+}
+.shop-date h2{
+  text-align: center;
+}
+.shop-date p{
+  margin: 10px 30px;
+}
+.map{
+  display: inline-block;
+}
+.tel{
+  float: left;
+}
+.phon{
+  float: right;
+  text-align: center;
+  margin: 0 10px 10px 10px;
+  cursor: pointer;
+  border:0.5px solid green;
+  border-radius: 10px;
+}
+.phon p{
+  padding:5px;
+  margin: 3px;
+  font-weight: bold;
+}
+.phon img{
+  margin-top: 5px;
+}
+.phon2{
+  text-align: center;
+  width: 150px;
+  cursor: pointer;
+  margin: auto;
+  border:0.5px solid green;
+  border-radius: 10px;
+}
+.phon2 p{
+  padding:5px;
+  margin: 3px;
+  font-weight: bold;
+}
+.phon2 img{
+  margin-top: 5px;
+}
+/*Menu-Wrapper*/
+.menu-wrapper{
+  padding: 5px 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+.menu-title h2{
+  border-bottom:0.5px solid black;
+  margin: 15px;
+  padding-bottom: 3px;
+}
+.menu{
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+  width: auto;
+}
+.menu h4{
+  margin: 10px;
+}
+.menu p{
+  margin: 10px;
+}
+/*ENDメッセージ*/
+.endroll{
+  text-align: center;
+  padding: 5px;
+}
